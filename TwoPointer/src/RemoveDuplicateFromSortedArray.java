@@ -7,7 +7,7 @@ public class RemoveDuplicateFromSortedArray {
 
 
     //Maintain Only Distinct Elements 
-    public int removeDuplicates(int[] arr) {
+    public static int removeDuplicates(int[] arr) {
         if (arr.length == 0) return 0;
 
        int i=0;
