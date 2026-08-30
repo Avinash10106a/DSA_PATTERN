@@ -9,9 +9,9 @@ The goal is to understand and recognize patterns instead of solving problems ran
 ## Progress
 
 | Pattern             | Status      |
-| ------------------- | ----------- |
+| ------------------- |-------------|
 | Two Pointers        | ✅ Completed |
-| Sliding Window      | 🔄 Upcoming |
+| Sliding Window      | 🔄 Continue |
 | Binary Search       | ⏳           |
 | Hashing             | ⏳           |
 | Stack               | ⏳           |
@@ -72,5 +72,7 @@ I consider whether the **Two Pointer** approach can be applied.
 ## Learning Progress
 
 **Two Pointer → ✅ Completed**
+**Two Pointer →  Continue**
 
-Next pattern: **Sliding Window**
+
+Next pattern: **Kadane Algorithm**
