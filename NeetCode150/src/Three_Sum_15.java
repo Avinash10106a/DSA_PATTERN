@@ -25,35 +25,33 @@ public class Three_Sum_15 {
                 continue;
             }
 
+            int target = -1*nums[i];
+
             int low=i+1;
             int high=nums.length-1;
 
             while(low<high){
-                int sum = nums[low] + nums[high];
-                int target = -1 * nums[i];
+                int sum = nums[low]+nums[high];
 
-                if(sum==target){
-                    ls.add(Arrays.asList(nums[i],nums[low],nums[high]));
+                if(sum==target) {
+                    ls.add(Arrays.asList(nums[i], nums[low], nums[high]));
                     low++;
                     high--;
 
-                    while(low<high && nums[low]==nums[low-1]){
+                    while (low < high && nums[low] == nums[low - 1]) {
                         low++;
                     }
-
-                    while(low<high && nums[high]==nums[high+1]){
-                        high--;
+                    while (low < high && nums[high] == nums[high + 1]) {
+                        low++;
                     }
-                } else if(sum<target){
-                    low++;
-                }else{
+                }else if(sum>target){
                     high--;
+                }else{
+                    low++;
                 }
-
             }
         }
 
         return ls;
-
     }
 }
