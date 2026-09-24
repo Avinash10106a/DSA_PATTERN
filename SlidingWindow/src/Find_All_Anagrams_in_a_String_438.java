@@ -5,7 +5,6 @@ public class Find_All_Anagrams_in_a_String_438 {
     public static void main(String[] args) {
         String s = "cbaebabacd";
         String p = "abc";
-
         System.out.println(findAnagrams(s,p));
     }
 
